@@ -1,0 +1,22 @@
+{
+  "name": "flashcard_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiaKuza/flashcard_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiaKuza/flashcard_backend/issues"
+  },
+  "homepage": "https://github.com/GiaKuza/flashcard_backend#readme",
+  "dependencies": {
+    "mongoose": "^5.13.0"
+  }
+}
