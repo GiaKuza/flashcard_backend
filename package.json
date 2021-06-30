@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/GiaKuza/flashcard_backend#readme",
   "dependencies": {
-    "mongoose": "^5.13.0"
+    "config": "^3.3.6",
+    "joi": "^17.4.0",
+    "mongoose": "^5.13.0",
+    "nodemon": "^2.0.8"
   }
 }
