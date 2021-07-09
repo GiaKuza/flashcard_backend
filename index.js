@@ -1,12 +1,14 @@
 const connectDB = require('./startup/db');
 const express = require('express');
 const app = express();
+const cors = require('cors');
 
 const collections = require('./routes/collections');
 const cards = require('./trash/cards');
 
 connectDB();
 
+app.use(cors());
 app.use(express.json());
 
 app.use('/api/collections', collections);
